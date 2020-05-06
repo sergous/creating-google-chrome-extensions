@@ -2,7 +2,7 @@
 
 This repository accompanies [*Creating Google Chrome Extensions*](http://www.apress.com/9781484217740) by Prateek Mehta (Apress, 2016).
 
-![Cover image](9781484217740.jpg)
+![Cover image](book.jpg)
 
 Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
