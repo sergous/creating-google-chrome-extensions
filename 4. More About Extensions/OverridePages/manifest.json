@@ -1,0 +1,16 @@
+{
+	"name" : "My New-Tab",
+	"version" : "1.2",
+	"manifest_version" : 2,
+	"chrome_url_overrides" : {
+		/*newtab,history,bookmarks*/
+		"newtab" : "myNewTab.html"
+	},
+	"permissions" : ["bookmarks","storage"],
+	/*Using an options page*/
+	"options_ui" : {
+		"page" : "myOptionsPage.html",
+		/*Use Chrome stylesheet*/
+		"chrome_style" : true
+	}
+}

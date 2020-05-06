@@ -1,0 +1,25 @@
+{
+	"manifest_version" : 2,
+	"name" : "HelloTheme",
+	"version" : "1.2",
+	"theme" : {
+		"images" : {
+			"theme_frame" : "images/theme_frame_golden.png", //The frame of the window, i.e., the area that is behind the tabs
+			"theme_toolbar" : "images/theme_toolbar_silver.png", //The theme for the current tab and the toolbar together
+			"theme_ntp_background" : "images/theme_ntp_background.png", //The background image for the New Tab page
+			"theme_ntp_attribution" : "images/theme_ntp_attribution.png" //The attribution image for the New Tab page
+		},
+		"colors" : {
+			"tab_text" : [0,0,0], //The color of text, in the title of current tab
+			"ntp_text" : [255,255,255], //The color of all the text in the New Tab page
+			"button_background" : [0,0,255] //The background color of all the window buttons (for example - minimize, close, etc.)
+		},
+		"tints" : { //Tints are in Hue-Saturation-Lightness (HSL) format, using floating-point numbers in the range 0 to 1.0. -1.0 for no change
+			"buttons" : [0.0,0.0,0.0], //The color tint that can be applied to various buttons in the chrome toolbar
+			"frame" : [-1.0,-1.0,-1.0], //The color tint that can be applied to the frame of chrome
+			"frame_inactive" : [-1.0,-1.0,0.3], //The color tint that is applied when the chrome window is inactive
+			"frame_incognito" : [-1.0,-1.0,0.2], //The color tint to the frame in incognito mode
+			"frame_incognito_inactive" : [-1.0,-1.0,0.0] //Same as above, but when the window is inactive (and in incognito mode)
+		}
+	}
+}

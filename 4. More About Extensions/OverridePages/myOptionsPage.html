@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Options-Page</title>
+<script src="myOptionsPage_1.js"></script>
+<style>
+div.left {
+float:left;
+}
+div.right {
+float:right;
+}
+p.clear {
+clear:both;
+}
+</style>
+</head>
+<body>
+<p>
+<div class="left">
+Only display matching bookmarks?
+</div>
+<div class="right">
+<form>
+<input type="radio" name="highlight" value="1"> Yes
+<input type="radio" name="highlight" value="0" checked="checked"> No
+</form>
+</div>
+</p>
+<br>
+<p class="clear">
+<input type="button" id="save" value="Save">
+</p>
+</body>
+</html>
